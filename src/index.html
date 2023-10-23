@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./styles/main.scss">
+    <!-- LIB TEXT ANIMATION CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -41,8 +44,8 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container" data-aos-duration="1000" data-aos="fade-left">
             <div class="event__details">
                 <h2 class="event__details__title">Front-end</h2>
                 <p class="event__details__description">
@@ -53,6 +56,46 @@
         </div>
     </section>
 
+    <section class="event event--ux-ui event--image--left">
+        <div class="container" data-aos-duration="1000" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi unde quasi, tenetur perspiciatis illum amet ipsa sit! Dolor corporis quas dolorum saepe officiis aspernatur culpa iste consequatur. Totam, omnis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos-duration="1000" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi unde quasi, tenetur perspiciatis illum amet ipsa sit! Dolor corporis quas dolorum saepe officiis aspernatur culpa iste consequatur. Totam, omnis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image--left">
+        <div class="container" data-aos-duration="1000" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Backend</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi unde quasi, tenetur perspiciatis illum amet ipsa sit! Dolor corporis quas dolorum saepe officiis aspernatur culpa iste consequatur. Totam, omnis.
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="Front-end">
+        </div>
+    </section>
+
+    <!-- LIB JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- SCRIPT JS -->
     <script src="./scripts/main.js"></script>
 
 </body>
