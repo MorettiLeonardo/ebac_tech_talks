@@ -2,10 +2,10 @@
   "name": "projeto-tech-talks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js"
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
